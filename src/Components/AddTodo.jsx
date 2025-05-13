@@ -17,7 +17,7 @@ function AddTodo({ className = "", todos }) {
         if (titleValue && !isSubmitting) {
             try {
                 setIsSubmitting(true);
-                const response = await fetch(`http://localhost:3000/api/todos?userEmail=${user?.primaryEmailAddress?.emailAddress}`, {
+                const response = await fetch(`${import.meta.env.VITE_TODOS_API}?userEmail=${user?.primaryEmailAddress?.emailAddress}`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
