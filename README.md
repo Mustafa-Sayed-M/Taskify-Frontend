@@ -1,4 +1,4 @@
-# Taksify Frontend ✅
+# Taskify Frontend ✅
 
 **Taksify** is a task management app that allows users to create, update, and manage their tasks smoothly.  
 This is the frontend of the app, built using **React**, **Vite**, and **TailwindCSS**, with **Clerk** for authentication and **React Query** for data fetching and caching.
